@@ -13,18 +13,18 @@ char *_memset(char *s, char b, unsigned int n)
 
 {
 
-README.md int i = 0;
+int i = 0;
 
-README.md for (; n > 0; i++)
+for (; n > 0; i++)
 
-README.md {
+{
 
-README.md README.md s[i] = b;
+s[i] = b;
 
-README.md README.md n--;
+n--;
 
-README.md }
+}
 
-README.md return (s);
+return (s);
 
 }
